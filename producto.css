@@ -1,0 +1,446 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.space{
+    height: 72px;
+}
+.navbar{
+    position:fixed !important;
+    top: 0px;
+}
+header{
+    font-family: 'Zen Dots', cursive;
+}
+.logo-navbar{
+    height: 60px;
+    padding: 0px;
+}
+#product{
+    width:40%;
+}
+.comprar{
+    margin-top: 30px;
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    height: 300px;
+}
+#money{
+    margin-right: 20px;
+    display: inline;
+}
+
+.cart-button{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    border: thin solid #888;
+    background-color: black;
+    font-family: serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px grey;
+}
+.cart-text{
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+}
+#img-cuotas{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.comentario{
+    margin: 0px;
+}
+.star{
+    display: inline;
+    width: 20px;
+}
+footer{
+    font-family: 'Zen Dots', cursive;
+    font-size: 12px;
+}
+.button-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+.footer-tt{
+    font-size: 16px;
+}
+.button-icon-footer{
+    height: 30px;
+    width: 30px;
+}
+.button-footer:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.whatsapp-icon{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+@media screen and (max-width: 576px){
+    #product{
+        width:80%;
+    }
+    .comprar{
+        margin-top: 30px;
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(182, 182, 182);
+        border-radius: 0px;
+        height: auto;
+    }
+    #money{
+        margin-right: 20px;
+        display: inline;
+    }
+    .cart-button{
+        margin-top: 30px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 45px;
+        border: thin solid #888;
+        background-color: black;
+        font-family: serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        box-shadow: 1px 1px 1px grey;
+    }
+    .cart-text{
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+    }
+    #img-cuotas{
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+    .comentario{
+        margin: 0px;
+    }
+    .star{
+        display: inline;
+        width: 20px;
+    }
+    .controls{
+        width: 100%;
+    }
+    footer{
+        font-family: 'Zen Dots', cursive;
+    }
+    .button-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 250px;
+        height: 45px;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        text-decoration: none;
+    }
+    .button-icon-footer{
+        height: 40px;
+        width: 40px;
+    }
+    .whatsapp-icon{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+    }
+    #footer-1{
+        display: none !important;
+    }
+    #footer-3{
+        display: none !important;
+    }
+}
+@media screen and (min-width:577px) and (max-width: 766px){
+    #product{
+        width:80%;
+    }
+    .comprar{
+        margin-top: 30px;
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(182, 182, 182);
+        border-radius: 0px;
+        height: auto;
+    }
+    #money{
+        margin-right: 20px;
+        display: inline;
+    }
+    .cart-button{
+        margin-top: 30px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 45px;
+        border: thin solid #888;
+        background-color: black;
+        font-family: serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        box-shadow: 1px 1px 1px grey;
+    }
+    .cart-text{
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+    }
+    #img-cuotas{
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+    .comentario{
+        margin: 0px;
+    }
+    .star{
+        display: inline;
+        width: 20px;
+    }
+    .controls{
+        width: 100%;
+    }
+    footer{
+        font-family: 'Zen Dots', cursive;
+    }
+    .button-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 250px;
+        height: 45px;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        text-decoration: none;
+    }
+    .button-icon-footer{
+        height: 40px;
+        width: 40px;
+    }
+    .whatsapp-icon{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+    }
+    #footer-1{
+        display: none !important;
+    }
+    #footer-3{
+        display: none !important;
+    }
+}
+@media screen and (min-width:767px) and (max-width: 991px){
+    #product{
+        width:80%;
+    }
+    .comprar{
+        margin-top: 30px;
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(182, 182, 182);
+        border-radius: 10px;
+        height: auto;
+    }
+    #money{
+        margin-right: 10px;
+        display: inline;
+    }
+    #img-cuotas{
+        display: none;
+    }
+    .cart-button{
+        margin-top: 30px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+        border: thin solid #888;
+        background-color: black;
+        font-family: serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        box-shadow: 1px 1px 1px grey;
+    }
+    .cart-text{
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+    }
+    #img-cuotas{
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+    .comentario{
+        margin: 0px;
+    }
+    .star{
+        display: inline;
+        width: 20px;
+    }
+    .controls{
+        width: 100%;
+    }
+    footer{
+        font-family: 'Zen Dots', cursive;
+    }
+    .button-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 250px;
+        height: 45px;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        text-decoration: none;
+    }
+    .button-icon-footer{
+        height: 40px;
+        width: 40px;
+    }
+    .whatsapp-icon{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+    }
+    #card-4{
+        display: none;
+    }
+}
+@media screen and (min-width:992px) and (max-width: 1400px){
+        
+    #product{
+        width:80%;
+    }
+    .comprar{
+        margin-top: 30px;
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(182, 182, 182);
+        border-radius: 10px;
+        height: 300px;
+    }
+    #money{
+        margin-right: 20px;
+        display: inline;
+    }
+    .cart-button{
+        margin-top: 30px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 45px;
+        border: thin solid #888;
+        background-color: black;
+        font-family: serif;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        box-shadow: 1px 1px 1px grey;
+    }
+    .cart-text{
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+    }
+    #img-cuotas{
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+    .comentario{
+        margin: 0px;
+    }
+    .star{
+        display: inline;
+        width: 20px;
+    }
+    .controls{
+        width: 100%;
+    }
+    footer{
+        font-family: 'Zen Dots', cursive;
+    }
+    .button-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 250px;
+        height: 45px;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        text-decoration: none;
+    }
+    .button-icon-footer{
+        height: 40px;
+        width: 40px;
+    }
+    .whatsapp-icon{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+    }
+}

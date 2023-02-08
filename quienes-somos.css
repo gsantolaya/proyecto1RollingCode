@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(
+        to right top,
+        #858e96,
+        #60696b
+      );
+    font-family: 'Zen Dots', cursive !important;
+}
+.space{
+    height: 72px;
+}
+.navbar{
+    position:fixed !important;
+    top: 0px;
+}
+.logo-navbar{
+    height: 60px;
+    padding: 0px;
+}
+#section-1{
+    font-weight: 200;
+    width: 100%;
+    text-align:start; 
+}
+.team-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cards{
+    width: 260px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#section-1 div{
+    padding: 10px;
+}
+.textos3 p, h4{
+    text-align: center; 
+    padding: 10px;
+    font-size: 18px;
+}
+.team p{
+    text-align: center;
+    padding: 10px;
+}
+.foto{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-items: center;
+}
+.team div{
+    background-color: #404243;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 7px 6px 21px rgba(255,255,255,1);
+    -moz-box-shadow: 7px 6px 21px rgba(255,255,255,1);
+    box-shadow: 7px 6px 21px rgba(255,255,255,1);
+    transition: .5s;
+}
+.team div:hover {
+transform: scale(1.03);
+}
+
+.team div p{
+    font-size: 17px;
+    font-weight: 500;
+}
+footer{
+    font-family: 'Zen Dots', cursive;
+    font-size: 12px;
+}
+.button-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+.footer-tt{
+    font-size: 16px;
+}
+.button-icon-footer{
+    height: 30px;
+    width: 30px;
+}
+.button-footer:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.whatsapp-icon{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+@media screen and (max-width: 576px){
+    .team-name{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #footer-1{
+        display: none !important;
+    }
+    #footer-3{
+        display: none !important;
+    }
+}

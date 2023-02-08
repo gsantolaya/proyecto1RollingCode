@@ -1,0 +1,129 @@
+body{
+    background-image: linear-gradient(
+    to right top,
+    #ebf4f5,
+    #b5c6e0
+  );
+}
+.space{
+    height: 72px;
+}
+.navbar{
+    position:fixed !important;
+    top: 0px;
+}
+header{
+    font-family: 'Zen Dots', cursive;
+}
+.logo-navbar{
+    height: 60px;
+    padding: 0px;
+}
+.title-section{
+    font-family: 'Zen Dots', cursive;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.button{
+    width: 250px;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px grey;
+}
+.button:hover {
+    transform: scale(1.1);
+}
+.card{
+    border: none;
+    box-shadow: 1px 1px 5px black;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+#orden{
+    box-shadow: 3px 3px 10px black;
+}
+footer{
+    font-family: 'Zen Dots', cursive;
+    font-size: 12px;
+}
+.button-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+.footer-tt{
+    font-size: 16px;
+}
+.button-icon-footer{
+    height: 30px;
+    width: 30px;
+}
+.button-footer:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.whatsapp-icon{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+@media screen and (max-width: 576px){
+    #footer-1{
+        display: none !important;
+    }
+    #footer-3{
+        display: none !important;
+    }
+    .filtro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .buscador{
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+@media screen and (min-width:577px) and (max-width: 768px){
+    #footer-1{
+        display: none !important;
+    }
+    #footer-3{
+        display: none !important;
+    }
+    .filtro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .buscador{
+        display: flex;
+        flex-direction: column !important;
+    }
+}

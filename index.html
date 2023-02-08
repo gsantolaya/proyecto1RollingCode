@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Venta de perfumes online">
+        <meta name="keywords" content="leParfum, perfumes, e-commerce">
+        <meta name="author" content="Winter Code Team">
+        <link rel="shortcut icon" type="image/x-icon" href="./img/shopping-icon.png">
+        <title>leParfum</title>
+        <link rel="stylesheet" href="./index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <div class="space"></div>
+        <nav class="navbar navbar-expand-lg bg-light w-100" style="z-index: 100">
+            <div class="container-fluid">
+              <a class="navbar-brand p-0" href="#"><img class="logo-navbar" src="./img/logo-horizontal.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="categorias">
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#para-ellas">Para ellas</a></li>
+                                <li><a class="dropdown-item" href="#para-ellos">Para ellos</a></li>
+                                <li><a class="dropdown-item" href="#fragancias-unisex">Fragancias unisex</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                                <li><a class="dropdown-item" href="./quienes-somos.html">Acerca de nosotros</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit"><img src="./img/search-icon.png" alt="buscar"></button>
+                    </form>
+                    <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="./img/user-icon.png" alt="user"></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./login.html">Log in</a></li>
+                                <li><a class="dropdown-item" href="./sign-up.html">Sign up</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./404notfound.html"><img src="./img/support-icon.png" alt="support"></a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./carrito.html"><img src="./img/shopping-icon.png" alt="shopping"></a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://goo.gl/maps/gW6m3SXR1wTBwpgLA" target="_blanc"><img src="./img/map-icon.png" alt="map"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleSlidesOnly" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="header-top bg-dark">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner carousel-1">
+                      <div class="carousel-item active" data-bs-interval="3000">
+                        <p class="text-light text-center p-2"><b>Envio gratis en compras superiores a $10.000</b></p>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <p class="text-light text-center p-2"><b>Hasta 15% off en productos seleccionados</b></p>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <p class="text-light text-center p-2"><b>3 y 6 cuotas sin interés</b></p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <a href="./404notfound.html"><div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./img/carousel-1.jpg" class="d-block w-100" alt="promociones">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/carousel-2.jpg" class="d-block w-100" alt="promociones">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/carousel-3.jpg" class="d-block w-100" alt="promociones">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/carousel-4.jpg" class="d-block w-100" alt="promociones">
+            </div>
+        </div></a>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="encabezado">
+        <h1>Bienvenidos a Le Parfum</h1>
+        <p>Encontra el perfume que siempre quisiste al mejor precio del mercado</p>
+    </div>
+    <div class="row m-0 p-0">
+        <main class="col-12 col-md-12 col-lg-10 bg-secondary">
+            <section id="para-ellas" class="p-3">
+                <a href="./categoria-mujer.html" class="link-categorias"><h2 class="fs-1 title-section p-3">Fragancias para ellas</h2></a>
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/2682-large_default/212-heroes-edp-50.jpg" class="card-img-top" alt="212-heroes"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">CAROLINA HERRERA</h6>
+                                <p class="card-text">212 Heroes</p>
+                                <p class="card-text">DESDE: <b>$22.400</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/2480-large_default/very-good-girl-edp-30.jpg" class="card-img-top" alt="very-good-girl"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">CAROLINA HERRERA</h6>
+                                <p class="card-text">Very good girl</p>
+                                <p class="card-text">DESDE: <b>$26.500</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/1858-large_default/212-sexy-edp-60.jpg" class="card-img-top" alt="212-sexy"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">CAROLINA HERRERA</h6>
+                                <p class="card-text">212 Sexy</p>
+                                <p class="card-text">DESDE: <b>$19.900</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/1409-large_default/good-girl-supreme-edp-50.jpg" class="card-img-top" alt="good-girl"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">CAROLINA HERRERA</h6>
+                                <p class="card-text">Good girl</p>
+                                <p class="card-text">DESDE: <b>$27.810  </b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-6 my-2">
+                        <a href="./404notfound.html"><img class="img-pub" src="https://juleriaque.vteximg.com.br/arquivos/ids/192774/XmasHome-KENZO-610x495.jpg?v=638055789545900000" alt="KENZO"></a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/707-large_default/flower-eau-de-vie-edp-50.jpg" class="card-img-top" alt="flower"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">KENZO</h6>
+                                <p class="card-text">Flower</p>
+                                <p class="card-text">DESDE: <b>$25.300</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/713-large_default/flower-l-elixir-edp-50.jpg" class="card-img-top" alt="flower-l-elixir"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">KENZO</h6>
+                                <p class="card-text">Flower L'Elixir</p>
+                                <p class="card-text">DESDE: <b>$28.500</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/558-large_default/miss-dior-absolutely-blooming-edp-30.jpg" class="card-img-top" alt="miss-dior"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">DIOR</h6>
+                                <p class="card-text">Miss Dior</p>
+                                <p class="card-text">DESDE: <b>$21.700</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/1734-large_default/dior-addict-eau-fraiche-100.jpg" class="card-img-top" alt="addict"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">DIOR</h6>
+                                <p class="card-text">Addict</p>
+                                <p class="card-text">DESDE: <b>$32.400</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/152-large_default/pure-xs-edp-30.jpg" class="card-img-top" alt="pure-xs"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">PACO RABANNE</h6>
+                                <p class="card-text">Pure XS</p>
+                                <p class="card-text">DESDE: <b>$18.300</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/873-large_default/lady-million-edp-80.jpg" class="card-img-top" alt="lady-million"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">PACO RABANNE</h6>
+                                <p class="card-text">Lady Million</p>
+                                <p class="card-text">DESDE: <b>$32.900  </b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="publicidad-2 row m-lg-5">
+                    <iframe class="col-12 col-md-12 col-lg-6" width="560" height="340" loop src="https://www.youtube.com/embed/_3ZvYbC7IoY?playlist=_3ZvYbC7IoY&loop=1&autoplay=1&mute=1&rel=0&hd=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="col-12 col-md-12 col-lg-6 fw-light mt-4 mt-lg-0"><b class="fs-3">Irresistible Givenchy</b><br>La rosa Esencial, cosechada al alba en las montañas de Isparta, en Turquía, se inicia en un baile junto con la madera rubia que desata una armoniosa tensión. La esencia, provista de jugosos y crujientes toques de pera e hibisco, palpita en contacto con el empolvado lirio. La mezcla se fusiona deliciosamente con una táctil caricia de almizcle para concebir una fragancia vigorosa, floral y amaderada que resulta descaradamente inspiradora.</p>
+                </div>
+                <a class="end-section mt-5" href="./categoria-mujer.html">Ver más productos para ellas</a>
+            </section>
+            <section class="container-fluid p-0 m-0 bg-dark">
+                <div class="row m-0 p-0">
+                    <div class="col-6 p-0 m-0 p-0 d-flex justify-content-center"><img width="100%" src="https://juleriaque.vteximg.com.br/arquivos/ids/192598/XmasHome-BOSS-610x495.jpg?v=638052646325430000" alt="publicidad"></div>
+                    <div class="col-6 p-0 m-0 p-0 d-flex justify-content-center"><img width="100%" src="https://juleriaque.vteximg.com.br/arquivos/ids/192596/XmasHome-Dior-610x495.jpg?v=638052644612800000" alt="publicidad"></div>
+                </div>
+            </section>
+            <section id="para-ellos" class="p-3">
+                <a href="./categoria-hombre.html" class="link-categorias"><h2 class="fs-1 title-section p-3">Fragancias para ellos</h2></a>
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/384-large_default/invictus-legend-edp-100.jpg" class="card-img-top" alt="invictus-legend"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">PACO RABANNE</h6>
+                                <p class="card-text">Invictus Legend</p>
+                                <p class="card-text">DESDE: <b>$27.100</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/390-large_default/pure-xs-night-edt-100.jpg" class="card-img-top" alt="pure-xs-night"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">PACO RABANNE</h6>
+                                <p class="card-text">Pure XS Night</p>
+                                <p class="card-text">DESDE: <b>$19.900</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/376-large_default/black-xs-edt-100.jpg" class="card-img-top" alt="black-xs"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">PACO RABANNE</h6>
+                                <p class="card-text">Black XS</p>
+                                <p class="card-text">DESDE: <b>$23.050</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/381-large_default/invictus-intense-50.jpg" class="card-img-top" alt="invictus-intense"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">PACO RABANNE</h6>
+                                <p class="card-text">Invictus Intense</p>
+                                <p class="card-text">DESDE: <b>$24.850</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-6 my-4">
+                        <a href="./404notfound.html"><img class="img-pub" src="https://www.givenchybeauty.com/on/demandware.static/-/Sites-givenchy-beauty-storefront/default/dwd6ceb66e/upperPage/Fragrance/upper_gg_gamme.jpg" alt="KENZO"></a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/246-large_default/dior-homme-intense-edp-100.jpg" class="card-img-top" alt="homme-intense"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">DIOR</h6>
+                                <p class="card-text">Homme Intense</p>
+                                <p class="card-text">DESDE: <b>$35.600</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/253-large_default/sauvage-edp-100.jpg" class="card-img-top" alt="sauvage"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">DIOR</h6>
+                                <p class="card-text">Sauvage</p>
+                                <p class="card-text">DESDE: <b>$35.600</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/224-large_default/bad-boy-edt-50.jpg" class="card-img-top" alt="bad-boy"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">CAROLINA HERRERA</h6>
+                                <p class="card-text">Bad Boy</p>
+                                <p class="card-text">DESDE: <b>$37.000</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/1980-large_default/212-men-heroes-edt-50.jpg" class="card-img-top" alt="212-men-heroes"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">CAROLINA HERRERA</h6>
+                                <p class="card-text">212 Men Heroes</p>
+                                <p class="card-text">DESDE: <b>$27.900</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/2274-large_default/gentleman-edt-intense-100.jpg" class="card-img-top" alt="gentleman"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">GIVENCHY</h6>
+                                <p class="card-text">Gentleman</p>
+                                <p class="card-text">DESDE: <b>$30.900</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/1412-large_default/l-interdit-edp-intense-50.jpg" class="card-img-top" alt="l-interdite"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">GIVENCHY</h6>
+                                <p class="card-text">L'Interdite</p>
+                                <p class="card-text">DESDE: <b>$32.500</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="publicidad-1 row m-2">
+                        <iframe class="col-12 col-md-12 col-lg-6 " width="560" height="340" src="https://www.youtube.com/embed/VNOZTsK0gRs?playlist=VNOZTsK0gRs&loop=1&autoplay=1&mute=1&rel=0&hd=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="col-12 col-md-12 col-lg-6 fw-light mt-4 mt-lg-0"><b class="fs-3">Invictus Paco Rabanne</b><br>Héroe absoluto. Bendecido por los dioses y listo para afrontar cualquier reto. La fragancia masculina Invictus encarna la victoria. Un choque fenomenal entre la frescura aguda y la sensualidad animal. Dos fuerzas a las que nada (ni nadie) puede resistirse. Una fragancia mítica para un hombre que es una leyenda.</p>
+                    </div>
+                    <a class="end-section mt-5" href="./categoria-hombre.html">Ver más productos para ellos</a>
+            </section>
+            <section class="container-fluid p-0 m-0 bg-dark">
+                <div class="row m-0 p-0">
+                    <div class="col-6 p-0 m-0 p-0 d-flex justify-content-center"><img width="100%" src="https://juleriaque.vteximg.com.br/arquivos/ids/192598/XmasHome-BOSS-610x495.jpg?v=638052646325430000" alt="publicidad"></div>
+                    <div class="col-6 p-0 m-0 p-0 d-flex justify-content-center"><img width="100%" src="https://juleriaque.vteximg.com.br/arquivos/ids/192596/XmasHome-Dior-610x495.jpg?v=638052644612800000" alt="publicidad"></div>
+                </div>
+            </section>
+            <section id="fragancias-unisex" class="shadow p-3">
+                <a href="./categoria-unisex.html" class="link-categorias"><h2 class="fs-1 title-section p-3">Fragancias Unisex</h2></a>
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/1416-large_default/tom-ford-noir-edp-100.jpg" class="card-img-top" alt="noir"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">TOM FORD</h6>
+                                <p class="card-text">Noir</p>
+                                <p class="card-text">DESDE: <b>$86.500</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/1190-large_default/ck-one-edt-200.jpg" class="card-img-top" alt="calvin-k"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">CALVIL K.</h6>
+                                <p class="card-text">One</p>
+                                <p class="card-text">DESDE: <b>$26.400</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/2625-large_default/patchouli-l-eau-edt-100.jpg" class="card-img-top" alt="patchouli-l-eau"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">PATCHOULI</h6>
+                                <p class="card-text">Patchouli L'Eau</p>
+                                <p class="card-text">DESDE: <b>$16.500</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/2465-large_default/velvet-orchid-edp-100.jpg" class="card-img-top" alt="velvet-orchid"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">TOM FORD</h6>
+                                <p class="card-text">Velvet Orchid</p>
+                                <p class="card-text">DESDE: <b>$76.850</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-6 my-4">
+                        <a href="./404notfound.html"><img class="img-pub" src="https://www.givenchybeauty.com/on/demandware.static/-/Sites-givenchy-beauty-storefront/default/dwd6ceb66e/upperPage/Fragrance/upper_gg_gamme.jpg" alt="KENZO"></a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/246-large_default/dior-homme-intense-edp-100.jpg" class="card-img-top" alt="homme-intense"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">DIOR</h6>
+                                <p class="card-text">Homme Intense</p>
+                                <p class="card-text">DESDE: <b>$35.600</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/253-large_default/sauvage-edp-100.jpg" class="card-img-top" alt="sauvage"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">DIOR</h6>
+                                <p class="card-text">Sauvage</p>
+                                <p class="card-text">DESDE: <b>$35.600</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/2805-large_default/ck-one-collector-s-edition-edt-200.jpg" class="card-img-top" alt="one-coll"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">CALVIN K.</h6>
+                                <p class="card-text">ONE COLL</p>
+                                <p class="card-text">DESDE: <b>$29.000</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/1841-large_default/black-orchid-parfum-100.jpg" class="card-img-top" alt="black-orchid"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">TOM FORD</h6>
+                                <p class="card-text">Black Orchid</p>
+                                <p class="card-text">DESDE: <b>$95.500</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/274-large_default/memoire-d-une-odeur-edp-100.jpg" class="card-img-top" alt="memoire-d-une"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">GUCCI</h6>
+                                <p class="card-text">Memoire D' Une</p>
+                                <p class="card-text">DESDE: <b>$33.800</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="card m-2" style="width: 100%;">
+                            <a href="./producto.html"><img src="https://todoslosperfumes.com.ar/1297-large_default/tom-ford-black-orchid-edp-100.jpg" class="card-img-top" alt="black-orchid"></a>
+                            <div class="card-body">
+                                <h6 class="card-title">TOM FORD</h6>
+                                <p class="card-text">Black Orchid</p>
+                                <p class="card-text">DESDE: <b>$86.500</b></p>
+                                <a href="./carrito.html" class="btn btn-dark">COMPRAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="publicidad-1 row  m-lg-5">
+                    <iframe class="col-12 col-md-12 col-lg-6" width="560" height="340" src="https://www.youtube.com/embed/dkCccVuYP5w?playlist=dkCccVuYP5w&loop=1&autoplay=1&mute=1&rel=0&hd=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="col-12 col-md-12 col-lg-4 fw-light mt-4 mt-lg-0"><b class="fs-3">Ombré Leather Tom Ford</b><br>La libertad viene de adentro, el corazón del desierto del oeste envuelto en cuero. Avanza, sin ataduras, a través del aire quieto del espacio abierto. Polvo sobre viento, piel sobre piel, Ombré Leather se revela como un paisaje en capas, donde tramos de roca se transforman en un rubio amanecer bajo en el horizonte. Este Eau de Parfum está inspirado en el corazón del desierto del oeste envuelto en cuero.</p>
+                </div>
+                <a class="end-section mt-5" href="./categoria-unisex.html">Ver más productos unisex</a>
+            </section>
+            <section class="pub-final">
+                <div class="row pub-final m-0 p-0">
+                    <div class="col-12 col-md-3 p-0"><a href="./404notfound.html"><img width="100%" src="https://juleriaque.vteximg.com.br/arquivos/Givenchy_CierreHome_Nav-335x400.jpg?v=638055150696770000" alt="publicidad"></a></div>
+                    <div class="col-12 col-md-3 p-0"><a href="./404notfound.html"><img width="100%" src="https://juleriaque.vteximg.com.br/arquivos/Armani_CierreHome_Nav-335x400.jpg?v=638055150609700000" alt="publicidad"></a></div>
+                    <div class="col-12 col-md-3 p-0"><a href="./404notfound.html"><img width="100%" src="https://juleriaque.vteximg.com.br/arquivos/Moncler_CierreHome_Nav-335x400.jpg?v=638055150848100000" alt="publicidad"></a></div>
+                    <div class="col-12 col-md-3 p-0"><a href="./404notfound.html"><img width="100%" src="https://juleriaque.vteximg.com.br/arquivos/Lancome_CierreHome_Nav-335x400.jpg?v=638055150776400000" alt="publicidad"></a></div>
+                </div>
+            </section>
+        </main>
+        <aside class="col-0 col-md-0 col-lg-2 p-0">
+            <div class="aside">
+                <img class="w-100" src="./img/aside-1.jpg" alt="feliz-navidad">
+                <img class="w-100" src="./img/aside-2.jpg" alt="feliz-navidad">
+                <img class="w-100" src="./img/aside-3.jpg" alt="feliz-navidad">
+
+                <img class="w-100" src="./img/aside-1.jpg" alt="feliz-navidad">
+                <img class="w-100" src="./img/aside-2.jpg" alt="feliz-navidad">
+                <img class="w-100" src="./img/aside-3.jpg" alt="feliz-navidad">
+
+                <img class="w-100" src="./img/aside-1.jpg" alt="feliz-navidad">
+                <img class="w-100" src="./img/aside-2.jpg" alt="feliz-navidad">
+                <img class="w-100" src="./img/aside-3.jpg" alt="feliz-navidad">
+            </div>
+        </aside>
+    </div>
+    <div>
+    <a href="https://api.whatsapp.com/send?phone=543815792863" target="_blank"><img src="./img/icono-whatsapp.png" alt="whatsapp-support" class="whatsapp-icon"></a>
+    </div>
+    <footer>
+        <div class="row p-0 m-0">
+            <div id="footer-1" class="col-0 col-md-4 pt-2 bg-light d-flex align-items-center justify-content-center">
+                <div>
+                    <p class="footer-tt"><b>Contactanos:</b></p>
+                        <ul>
+                            <li>(+54) 381 5792863</li>
+                            <li>leparfume@gmail.com</li>
+                            <li>Laprida 550</li>
+                            <li>San Miguel de Tucumán</li>
+                        </ul>
+                </div>
+            </div>
+            <div id="footer-2" class="col-12 col-md-4 pt-2 bg-light text-center">
+                <a href="#"><img width="130px" src="./img/logo-vertical.png" alt="logo"></a>
+                <p class="fst-italic text-dark">&copy;Todos los derechos reservados</p>
+            </div>
+            <div id="footer-3" class="col-0 col-md-4 pt-2 bg-light d-flex align-items-center justify-content-center">
+                <div>
+                    <p class="footer-tt"><b>Encuentranos tambien en:</b></p>
+                    <div class="div-button-google">
+                        <a class="button-footer" href="./404notfound.html">
+                            <img class="button-icon-footer" src="./img/instagram-icon-footer.png" alt="instagram-icon">
+                            <p class="p-3" id="google-text">le_parfume</p>
+                        </a>
+                    </div>
+                    <div class="div-button-google">
+                        <a class="button-footer" href="./404notfound.html">
+                            <img class="button-icon-footer" src="./img/facebook-icon-footer.png" alt="facebook-icon">
+                            <p class="p-3" id="google-text">Le Parfum</p>
+                        </a>
+                    </div>
+                    <div class="div-button-google">
+                        <a class="button-footer" href="./404notfound.html">
+                            <img class="button-icon-footer" src="./img/twitter-icon-footer.png" alt="twitter-icon">
+                            <p class="p-3" id="google-text">@leparfum</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>

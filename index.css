@@ -1,0 +1,310 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.space{
+    height: 72px;
+}
+.navbar{
+    position:fixed !important;
+    top: 0px;
+}
+header{
+    font-family: 'Zen Dots', cursive;
+}
+.encabezado{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-family: 'Zen Dots', cursive;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin: 0px;
+}
+.title-section{
+    font-family: 'Zen Dots', cursive;
+    margin-top: 60px !important;
+}
+.end-section{
+    font-family: 'Zen Dots', cursive;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+.end-section:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.carousel-1{
+    height: 40px;
+}
+.logo-navbar{
+    height: 60px;
+    padding: 0px;
+}
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px !important;
+}
+#para-ellas{
+    background-image: linear-gradient(
+        to right top,
+        #FEC5BB,
+        #FCD5CE,
+        #FAE1DD,
+        #F8EDEB,
+        #E8E8E4,
+        #D8E2DC,
+        #ECE4DB,
+        #FFE5D9,
+        #FFD7BA,
+        #FEC89A
+      );
+}
+#para-ellos{
+    background-image: linear-gradient(
+        to right top,
+        #ebf4f5,
+        #b5c6e0
+      );
+    width: 100%;
+}
+#fragancias-unisex{
+    background-image: linear-gradient(
+        to right top,
+        #809BCE,
+        #95B8D1 ,
+        #B8E0D2,
+        #D6EADF,
+        #EAC4D5
+      );
+    width: 100%;
+}
+.link-categorias{
+    color: black;
+    text-decoration: none;
+}
+.link-categorias:hover{
+    color: black;
+}
+.link-producto{
+    color: black;
+    text-decoration: none;
+}
+.link-producto{
+    color: black;
+    text-decoration: none;
+}
+.link-producto:hover{
+    color: black;
+    text-decoration: none;
+}
+.card{
+    border: none;
+    box-shadow: 1px 1px 5px black;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.img-pub{
+    height: 470px;
+    width: 580px;
+    margin-left:20px
+}
+.publicidad-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.publicidad-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+aside{
+    background-color:#ddc5ad;
+}
+.aside{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer{
+    font-family: 'Zen Dots', cursive;
+    font-size: 12px;
+}
+.button-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+.footer-tt{
+    font-size: 16px;
+}
+.button-icon-footer{
+    height: 30px;
+    width: 30px;
+}
+.button-footer:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.whatsapp-icon{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+@media screen and (max-width: 576px){
+    .carousel-1{
+        display: none;
+    }
+    .encabezado{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .title-section{
+        text-align: center;
+    }
+    .img-pub{
+        margin-left:0px;
+        margin-right:0px;
+        width: 100%;
+        height: auto;
+    }
+    aside{
+        display: none;
+    }
+    .publicidad-2{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .publicidad-1{
+        display: flex;
+        flex-direction: column !important;
+    }
+    #footer-1{
+        display: none !important;
+    }
+    #footer-3{
+        display: none !important;
+    }
+    .pub-final{
+        display:none;
+    }
+}
+@media screen and (min-width:577px) and (max-width: 766px){
+    .carousel-1{
+        display: none;
+    }
+    .encabezado{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .title-section{
+        text-align: center;
+    }
+    .img-pub{
+        margin-left:0px;
+        margin-right:0px;
+        width: 100%;
+        height: auto;
+    }
+    aside{
+        display: none;
+    }
+    .publicidad-2{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .publicidad-1{
+        display: flex;
+        flex-direction: column !important;
+    }
+    #footer-1{
+        display: none !important;
+    }
+    #footer-3{
+        display: none !important;
+    }
+    .pub-final{
+        display:none;
+    }
+}
+@media screen and (min-width:767px) and (max-width: 991px){
+    .carousel-1{
+        display: none;
+    }
+    .encabezado{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .title-section{
+        text-align: center;
+    }
+    .img-pub{
+        margin-left:0px;
+        margin-right:0px;
+        width: 100%;
+        height: auto;
+    }
+    aside{
+        display: none;
+    }
+    .publicidad-2{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .publicidad-1{
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+@media screen and (min-width:992px) and (max-width: 1400px){
+    .encabezado{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .title-section{
+        text-align: center;
+    }
+    .img-pub{
+        margin-left:0px;
+        margin-right:0px;
+        width: 100%;
+        height: auto;
+    }
+    .publicidad-2{
+        display: flex;
+        flex-direction: row !important;
+    }
+    .publicidad-1{
+        display: flex;
+        flex-direction: row !important;
+    }
+}
